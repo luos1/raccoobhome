@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raccoob Home - Your friendly raccoon's corner on the web">
+    <title>Raccoob Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>🦝 Raccoob Home</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Raccoob's Home</h2>
+                <p>Your friendly raccoon's corner on the web</p>
+                <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Raccoob</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I'm Raccoob, a curious and friendly raccoon who loves exploring the digital world.</p>
+                        <p>This is my personal space where I share my adventures, projects, and interesting findings.</p>
+                        <h3>What I Do:</h3>
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Digital Art</li>
+                            <li>Open Source Projects</li>
+                            <li>Tech Blogging</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <div class="raccoon-avatar">🦝</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-icon">💻</div>
+                        <h3>Coding Projects</h3>
+                        <p>Explore my latest coding adventures and open source contributions</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-icon">🎨</div>
+                        <h3>Digital Art</h3>
+                        <p>Creative designs and digital illustrations</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-icon">📝</div>
+                        <h3>Blog Posts</h3>
+                        <p>Technical articles and personal reflections</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-icon">🌟</div>
+                        <h3>Fun Projects</h3>
+                        <p>Experimental and playful side projects</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Want to collaborate or just say hi? Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="https://github.com" class="contact-link" target="_blank">
+                        <span class="icon">📧</span> GitHub
+                    </a>
+                    <a href="mailto:raccoob@example.com" class="contact-link">
+                        <span class="icon">✉️</span> Email
+                    </a>
+                    <a href="#" class="contact-link">
+                        <span class="icon">🐦</span> Twitter
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Raccoob Home. Built with ❤️ and GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
