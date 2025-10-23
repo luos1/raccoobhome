@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Raccoob Home - Your friendly raccoon's corner on the web">
-    <title>Raccoob Home</title>
+    <meta name="description" content="너굴쌤 - 19년차 게임 기획자 | 게임 기획 컨설팅 & 강의">
+    <title>너굴쌤 - 19년차 게임 기획자</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <h1>🦝 Raccoob Home</h1>
+                <h1>🦝 너굴쌤</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#expertise">전문분야</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#contact">연락하기</a></li>
             </ul>
         </nav>
     </header>
@@ -25,57 +27,189 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <h2>Welcome to Raccoob's Home</h2>
-                <p>Your friendly raccoon's corner on the web</p>
-                <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+                <div class="hero-badge">19년차 게임 기획자</div>
+                <h2>게임을 만드는 즐거움을 <br>나누는 너굴쌤입니다</h2>
+                <p class="hero-subtitle">성공적인 게임 개발을 위한 실전 기획 전문가</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">19+</div>
+                        <div class="stat-label">년 경력</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">프로젝트</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">멘토링</div>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('contact')">상담 문의하기</button>
             </div>
         </section>
 
         <section id="about" class="section">
             <div class="container">
-                <h2>About Raccoob</h2>
+                <h2>About 너굴쌤</h2>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>Hello! I'm Raccoob, a curious and friendly raccoon who loves exploring the digital world.</p>
-                        <p>This is my personal space where I share my adventures, projects, and interesting findings.</p>
-                        <h3>What I Do:</h3>
-                        <ul>
-                            <li>Web Development</li>
-                            <li>Digital Art</li>
-                            <li>Open Source Projects</li>
-                            <li>Tech Blogging</li>
-                        </ul>
+                        <p class="intro-text">안녕하세요, 19년차 게임 기획자 너굴쌤입니다.</p>
+                        <p>모바일, PC, 콘솔 게임을 아우르는 다양한 장르의 게임 개발 경험을 바탕으로, 성공적인 게임 기획과 개발을 지원합니다.</p>
+                        <p>신규 게임 개발부터 운영 중인 게임의 개선까지, 실전에서 검증된 노하우를 제공합니다.</p>
+
+                        <div class="philosophy">
+                            <h3>🎯 기획 철학</h3>
+                            <blockquote>
+                                "좋은 게임은 플레이어의 마음을 이해하는 것에서 시작됩니다."
+                            </blockquote>
+                            <p>데이터와 직관의 균형, 창의성과 실행 가능성의 조화를 추구합니다.</p>
+                        </div>
                     </div>
                     <div class="about-image">
                         <div class="raccoon-avatar">🦝</div>
+                        <div class="avatar-caption">게임으로 세상을 즐겁게!</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="gallery" class="section gallery-section">
+        <section id="expertise" class="section expertise-section">
             <div class="container">
-                <h2>Gallery</h2>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <div class="gallery-icon">💻</div>
-                        <h3>Coding Projects</h3>
-                        <p>Explore my latest coding adventures and open source contributions</p>
+                <h2>전문 분야</h2>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <div class="expertise-icon">🎮</div>
+                        <h3>게임 시스템 기획</h3>
+                        <ul>
+                            <li>핵심 게임 메카닉 설계</li>
+                            <li>밸런싱 & 튜닝</li>
+                            <li>레벨 디자인</li>
+                            <li>경제 시스템 설계</li>
+                        </ul>
                     </div>
-                    <div class="gallery-item">
-                        <div class="gallery-icon">🎨</div>
-                        <h3>Digital Art</h3>
-                        <p>Creative designs and digital illustrations</p>
+                    <div class="expertise-item">
+                        <div class="expertise-icon">📊</div>
+                        <h3>데이터 기반 운영</h3>
+                        <ul>
+                            <li>KPI 설정 & 분석</li>
+                            <li>유저 행동 패턴 분석</li>
+                            <li>라이브 운영 전략</li>
+                            <li>수익화 모델 설계</li>
+                        </ul>
                     </div>
-                    <div class="gallery-item">
-                        <div class="gallery-icon">📝</div>
-                        <h3>Blog Posts</h3>
-                        <p>Technical articles and personal reflections</p>
+                    <div class="expertise-item">
+                        <div class="expertise-icon">🎨</div>
+                        <h3>컨텐츠 기획</h3>
+                        <ul>
+                            <li>스토리텔링 & 세계관</li>
+                            <li>캐릭터 & 아이템 기획</li>
+                            <li>이벤트 & 시즌 기획</li>
+                            <li>소셜 기능 설계</li>
+                        </ul>
                     </div>
-                    <div class="gallery-item">
-                        <div class="gallery-icon">🌟</div>
-                        <h3>Fun Projects</h3>
-                        <p>Experimental and playful side projects</p>
+                    <div class="expertise-item">
+                        <div class="expertise-icon">🚀</div>
+                        <h3>프로젝트 관리</h3>
+                        <ul>
+                            <li>프로젝트 방향 설정</li>
+                            <li>팀 커뮤니케이션</li>
+                            <li>일정 & 리소스 관리</li>
+                            <li>QA & 출시 관리</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2>주요 프로젝트</h2>
+                <p class="section-subtitle">다양한 장르의 게임 개발 및 운영 경험</p>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <div class="project-tag">모바일 RPG</div>
+                        <h3>대규모 MMORPG 기획</h3>
+                        <p>글로벌 출시 | 동시접속 10만+ | 3년 장기 운영</p>
+                        <div class="project-skills">
+                            <span>전투 시스템</span>
+                            <span>경제 설계</span>
+                            <span>라이브 운영</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-tag">캐주얼 게임</div>
+                        <h3>하이퍼 캐주얼 게임 시리즈</h3>
+                        <p>누적 다운로드 500만+ | 다수의 히트작 기획</p>
+                        <div class="project-skills">
+                            <span>코어 루프</span>
+                            <span>수익화</span>
+                            <span>그로스 해킹</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-tag">전략 시뮬레이션</div>
+                        <h3>전략 SLG 신작 개발</h3>
+                        <p>장기 플레이 유도 시스템 설계 | CBT 평점 4.5+</p>
+                        <div class="project-skills">
+                            <span>전략 시스템</span>
+                            <span>동맹 기능</span>
+                            <span>PVP 밸런스</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-tag">인디 게임</div>
+                        <h3>감성 어드벤처 게임</h3>
+                        <p>스팀 평가 '매우 긍정적' | 독립 게임 페스티벌 수상</p>
+                        <div class="project-skills">
+                            <span>스토리텔링</span>
+                            <span>퍼즐 디자인</span>
+                            <span>분기 시나리오</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2>제공 서비스</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">💼</div>
+                        <h3>게임 기획 컨설팅</h3>
+                        <p>신규 프로젝트의 방향성 설정부터 구체적인 시스템 기획까지 전 과정을 지원합니다.</p>
+                        <ul class="service-details">
+                            <li>프로젝트 컨셉 검증</li>
+                            <li>핵심 시스템 설계</li>
+                            <li>기획서 작성 및 리뷰</li>
+                            <li>개발 프로세스 자문</li>
+                        </ul>
+                        <button class="service-button" onclick="scrollToSection('contact')">문의하기</button>
+                    </div>
+                    <div class="service-card highlight">
+                        <div class="service-badge">인기</div>
+                        <div class="service-icon">🎓</div>
+                        <h3>게임 기획 강의</h3>
+                        <p>실무 중심의 체계적인 커리큘럼으로 게임 기획자를 양성합니다.</p>
+                        <ul class="service-details">
+                            <li>게임 기획 입문 과정</li>
+                            <li>실전 포트폴리오 제작</li>
+                            <li>1:1 멘토링</li>
+                            <li>취업 및 이직 컨설팅</li>
+                        </ul>
+                        <button class="service-button" onclick="scrollToSection('contact')">수강 신청</button>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>게임 운영 분석</h3>
+                        <p>운영 중인 게임의 데이터를 분석하고 개선 방안을 제시합니다.</p>
+                        <ul class="service-details">
+                            <li>KPI 분석 및 리포팅</li>
+                            <li>유저 이탈 원인 분석</li>
+                            <li>수익 개선 전략</li>
+                            <li>컨텐츠 업데이트 기획</li>
+                        </ul>
+                        <button class="service-button" onclick="scrollToSection('contact')">문의하기</button>
                     </div>
                 </div>
             </div>
@@ -83,18 +217,59 @@
 
         <section id="contact" class="section contact-section">
             <div class="container">
-                <h2>Get in Touch</h2>
-                <p>Want to collaborate or just say hi? Feel free to reach out!</p>
-                <div class="contact-links">
-                    <a href="https://github.com" class="contact-link" target="_blank">
-                        <span class="icon">📧</span> GitHub
-                    </a>
-                    <a href="mailto:raccoob@example.com" class="contact-link">
-                        <span class="icon">✉️</span> Email
-                    </a>
-                    <a href="#" class="contact-link">
-                        <span class="icon">🐦</span> Twitter
-                    </a>
+                <h2>연락하기</h2>
+                <p class="contact-intro">게임 기획에 대한 고민이 있으시다면 언제든 편하게 연락주세요!</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>상담 및 문의</h3>
+                        <p>프로젝트 컨설팅, 강의 문의, 협업 제안 등 모든 문의를 환영합니다.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <span class="method-icon">📧</span>
+                                <div>
+                                    <div class="method-label">이메일</div>
+                                    <a href="mailto:raccoob.teacher@gmail.com">raccoob.teacher@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="method-icon">💬</span>
+                                <div>
+                                    <div class="method-label">카카오톡</div>
+                                    <span>ID: raccoob_teacher</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="method-icon">📱</span>
+                                <div>
+                                    <div class="method-label">오픈채팅</div>
+                                    <a href="#">게임기획 오픈채팅 참여하기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <h3>빠른 문의</h3>
+                        <form class="contact-form" onsubmit="return false;">
+                            <input type="text" placeholder="이름" required>
+                            <input type="email" placeholder="이메일" required>
+                            <select required>
+                                <option value="">문의 유형 선택</option>
+                                <option value="consulting">게임 기획 컨설팅</option>
+                                <option value="lecture">강의 수강</option>
+                                <option value="analysis">게임 운영 분석</option>
+                                <option value="collaboration">협업 제안</option>
+                                <option value="other">기타</option>
+                            </select>
+                            <textarea placeholder="문의 내용을 입력해주세요" rows="5" required></textarea>
+                            <button type="submit" class="submit-button">문의하기</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="블로그">📝</a>
+                    <a href="#" class="social-link" title="유튜브">📺</a>
+                    <a href="#" class="social-link" title="링크드인">💼</a>
+                    <a href="#" class="social-link" title="디스코드">🎮</a>
                 </div>
             </div>
         </section>
@@ -102,7 +277,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Raccoob Home. Built with ❤️ and GitHub Pages</p>
+            <p>&copy; 2025 너굴쌤 - 19년차 게임 기획자. All Rights Reserved.</p>
+            <p class="footer-subtitle">게임을 사랑하는 모든 이들과 함께합니다.</p>
         </div>
     </footer>
 
