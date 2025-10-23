@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+      - claude/deploy-to-pages-011CUQM6rdWCvBLzG1Peuo3z
   workflow_dispatch:
 
 permissions:
