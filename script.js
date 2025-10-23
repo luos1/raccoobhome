@@ -83,10 +83,10 @@ window.addEventListener('scroll', () => {
 
 // Console easter egg
 console.log(`
-    🦝 Welcome to Raccoob's Home!
+    🦝 안녕하세요, 너굴쌤입니다!
 
-    Thanks for checking out the console!
-    If you're interested in the code, check out the repository.
+    콘솔까지 확인하시다니, 개발자시군요!
+    게임 개발에 관심있으시다면 언제든 연락주세요.
 
-    Have a great day! 🌟
+    즐거운 하루 되세요! 🎮
 `);
